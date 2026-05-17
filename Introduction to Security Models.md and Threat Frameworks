@@ -1,0 +1,81 @@
+2. # Introduction to Security Models & Threat Frameworks
+
+---
+
+## Security Models Overview
+
+Security models define structured ways to protect systems, data, and networks by setting rules, boundaries, and trust levels.
+
+### Core Purpose:
+- Enforce confidentiality, integrity, and availability (CIA Triad)
+- Control access to systems and data
+- Reduce risks from unauthorized actions
+
+---
+
+## Key Security Principles
+
+- *Confidentiality* – Ensures only authorized users can access data
+- *Integrity* – Protects data from unauthorized modification
+- *Availability* – Ensures systems and data are accessible when needed
+
+---
+
+## Common Security Models
+
+### 1. Bell-LaPadula Model (Confidentiality-Focused)
+- Prevents unauthorized data disclosure
+- “No Read Up, No Write Down”
+- Common in military and government systems
+
+### 2. Biba Model (Integrity-Focused)
+- Prevents unauthorized data modification
+- “No Write Up, No Read Down”
+
+### 3. Clark-Wilson Model
+- Ensures data integrity through well-formed transactions
+- Uses separation of duties and auditing
+
+---
+
+## Threat Frameworks Overview
+
+Threat frameworks help organizations understand, categorize, and respond to cyber threats in a structured way.
+
+---
+
+## Common Threat Frameworks
+
+### 1. MITRE ATT&CK Framework
+- Real-world database of attacker tactics and techniques
+- Used for threat detection and threat hunting
+- Breaks attacks into phases like:
+  - Initial Access
+  - Execution
+  - Persistence
+  - Privilege Escalation
+  - Defense Evasion
+
+### 2. NIST Cybersecurity Framework (CSF)
+- Provides a structured security lifecycle:
+  - Identify
+  - Protect
+  - Detect
+  - Respond
+  - Recover
+- Widely used in enterprise cybersecurity
+
+### 3. Cyber Kill Chain (Lockheed Martin)
+- Describes stages of a cyberattack:
+  - Reconnaissance
+  - Weaponization
+  - Delivery
+  - Exploitation
+  - Installation
+  - Command & Control
+  - Actions on Objectives
+
+---
+
+
+
