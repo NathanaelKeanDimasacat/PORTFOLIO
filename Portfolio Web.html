@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nathanael Kean Dimasacat — Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="nav-wrapper glass">
+    <nav class="container nav">
+      <a href="#home" class="brand">Nathanael K. D.</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <i class="fa fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero / Home -->
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left glass card">
+          <h1 class="name">Nathanael Kean Dimasacat</h1>
+          <p class="subtitle">BSIT Student | Aspiring Cybersecurity Analyst</p>
+
+          <p class="intro">
+            Hi — I'm Nathanael, an IT student from Quezon City passionate about technology, coding,
+            cybersecurity, and web development.
+          </p>
+
+          <div class="type-wrap" aria-hidden="true">
+            <span id="type-text" class="type-text"></span>
+            <span class="cursor">|</span>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn primary">View Projects <i class="fa fa-arrow-right"></i></a>
+            <a href="#contact" class="btn outline">Contact Me <i class="fa fa-envelope"></i></a>
+          </div>
+
+          <div class="quick-info">
+            <span><i class="fa fa-map-marker-alt"></i> Quezon City</span>
+            <span><i class="fa fa-code"></i> PHP • Java • Python</span>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="profile glass card">
+            <div class="avatar">
+              <!-- Placeholder circle — replace with actual image if needed -->
+              <img src="kean.jpg" alt="Profile photo" class="avatar-img">
+                <defs>
+                  <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0" stop-color="#6a6cff"/>
+                    <stop offset="1" stop-color="#8b5cf6"/>
+                  </linearGradient>
+                </defs>
+                <rect width="100%" height="100%" rx="20" fill="url(#g)"/>
+                <g transform="translate(100,100)">
+                  <circle r="40" fill="#ffffffaa"/>
+                  <rect x="-55" y="50" width="110" height="40" rx="20" fill="#ffffff44"/>
+                </g>
+              </svg>
+            </div>
+
+            <div class="profile-meta">
+              <h3>Nathanael Kean D.</h3>
+              <p>BSIT Student • Aspiring Developer</p>
+              <div class="profile-buttons">
+                <a class="btn small glass" href="#about"><i class="fa fa-user"></i> About</a>
+                <a class="btn small glass" href="#projects"><i class="fa fa-folder-open"></i> Projects</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="stats">
+            <div class="stat glass">
+              <h4>3+</h4>
+              <p>Projects</p>
+            </div>
+            <div class="stat glass">
+              <h4>Interning</h4>
+              <p>Hands-on</p>
+            </div>
+            <div class="stat glass">
+              <h4>Always</h4>
+              <p>Learning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="about" class="section about container">
+      <div class="section-head">
+        <h2>About Me</h2>
+        <p>Short overview about background and interests</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass card">
+          <h3>Profile</h3>
+          <p>I am an IT student from Quezon City. Passionate about technology, coding, cybersecurity, and web development. Experienced with PHP, Java, Python, and Microsoft Office. Hobbies include gaming and gym/exercise.</p>
+          <ul class="list">
+            <li><i class="fa fa-check-circle"></i> PHP, Java, Python</li>
+            <li><i class="fa fa-check-circle"></i> Web development & cybersecurity basics</li>
+            <li><i class="fa fa-check-circle"></i> Networking fundamentals</li>
+          </ul>
+        </div>
+
+        <div class="about-card glass card">
+          <h3>Experience & Interests</h3>
+          <p>Hands-on coursework, Packet Tracer network labs, small web projects, and cryptography exercises. Always exploring secure coding and practical network setups.</p>
+          <div class="tag-cloud">
+            <span class="tag">Web Dev</span>
+            <span class="tag">Cybersecurity</span>
+            <span class="tag">Networking</span>
+            <span class="tag">Gaming</span>
+            <span class="tag">Gym</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Technical skills and proficiency</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Animated progress cards -->
+          <div class="skill-card glass">
+            <h4>HTML</h4>
+            <div class="progress" data-value="95"><span></span></div>
+          </div>
+          <div class="skill-card glass">
+            <h4>CSS</h4>
+            <div class="progress" data-value="90"><span></span></div>
+          </div>
+          <div class="skill-card glass">
+            <h4>JavaScript</h4>
+            <div class="progress" data-value="80"><span></span></div>
+          </div>
+          <div class="skill-card glass">
+            <h4>PHP</h4>
+            <div class="progress" data-value="75"><span></span></div>
+          </div>
+          <div class="skill-card glass">
+            <h4>Java</h4>
+            <div class="progress" data-value="70"><span></span></div>
+          </div>
+          <div class="skill-card glass">
+            <h4>Python</h4>
+            <div class="progress" data-value="70"><span></span></div>
+          </div>
+          <div class="skill-card glass">
+            <h4>Networking</h4>
+            <div class="progress" data-value="65"><span></span></div>
+          </div>
+          <div class="skill-card glass">
+            <h4>Cybersecurity basics</h4>
+            <div class="progress" data-value="60"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects container">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>Selected coursework and personal projects</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass card">
+          <div class="pc-head">
+            <h3>Web-based Cryptography Escape Room</h3>
+            <span class="tag">Web • Crypto</span>
+          </div>
+          <p>A browser-based puzzle game using classic ciphers and interactive hints to teach cryptography basics.</p>
+          <div class="pc-foot">
+            <span><i class="fa fa-code"></i> HTML/CSS/JS</span>
+            <a class="btn tiny" href="#" aria-disabled="true">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card glass card">
+          <div class="pc-head">
+            <h3>Cisco Packet Tracer Network Configuration</h3>
+            <span class="tag">Networking</span>
+          </div>
+          <p>Practical network topology design and device configuration using Cisco Packet Tracer for labs and simulations.</p>
+          <div class="pc-foot">
+            <span><i class="fa fa-network-wired"></i> Packet Tracer</span>
+            <a class="btn tiny" href="#" aria-disabled="true">Report</a>
+          </div>
+        </article>
+
+        <article class="project-card glass card">
+          <div class="pc-head">
+            <h3>Personal Portfolio Website</h3>
+            <span class="tag">Web</span>
+          </div>
+          <p>This portfolio — a responsive, dark, glassmorphism themed site showcasing projects, skills, and contact information.</p>
+          <div class="pc-foot">
+            <span><i class="fa fa-folder"></i> HTML/CSS/JS</span>
+            <a class="btn tiny" href="#" aria-disabled="true">Source</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section education container">
+  <div class="section-head">
+    <h2>Education</h2>
+    <p>Academic background</p>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-item glass">
+      <div class="time">
+        <h4>Bachelor of Science in Information Technology</h4>
+        <span class="period">Ongoing</span>
+      </div>
+      <div class="desc">
+        <p><i class="fa fa-university"></i> <strong>New Era University</strong> — Quezon City, Philippines</p>
+        <p>Studying core IT topics: programming, networking, system administration, cybersecurity, and software development methodologies.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- Add more timeline items as needed -->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact container">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Get in touch or follow me</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info glass card">
+          <h3>Contact Details</h3>
+          <p><i class="fa fa-envelope"></i> Email: <span class="muted">nathankean123@gmail.com</span></p>
+          <p><i class="fa-brands fa-github"></i> Facebook: <span class="muted">facebook.com/paranoiades123</span></p>
+          <p><i class="fa-brands fa-facebook"></i> GitHub: <span class="muted">github.com/NathanaelKeanDimasacat</span></p>
+          
+
+          <div class="socials">
+          <a href="https://facebook.com/paranoiades123" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://github.com/NathanaelKeanDimasacat" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        </div>
+
+        <div class="contact-form glass card">
+          <h3>Send a Message</h3>
+          <!-- UI only — form not functional -->
+          <form id="contactForm" onsubmit="return false;">
+            <label>
+              <span>Name</span>
+              <input type="text" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" placeholder="your.email@placeholder.com" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea rows="5" placeholder="Write a short message..." required></textarea>
+            </label>
+            <div class="form-actions">
+              <button class="btn primary" type="submit">Send Message</button>
+              <button class="btn outline" type="reset">Reset</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer glass">
+    <div class="container footer-inner">
+      <div class="foot-left">
+        <p>© <span id="year"></span> Nathanael Kean Dimasacat. All rights reserved.</p>
+      <div class="foot-right">
+  <a href="https://github.com/NathanaelKeanDimasacat" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://facebook.com/paranoiades123" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+  <a href="mailto:nathankean123@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+</div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top"><i class="fa fa-chevron-up"></i></button>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
