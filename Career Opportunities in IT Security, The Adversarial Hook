@@ -1,0 +1,96 @@
+Cybersecurity protects systems, networks, and data from attacks, damage, or unauthorized access.
+
+### Core Pillars:
+- *People* – Training and awareness
+- *Processes* – Security procedures and incident response
+- *Technology* – Tools like firewalls, monitoring, and detection systems
+
+---
+
+## 2. Red Team vs Blue Team
+- *Red Team* – Offensive security (simulated attacks, finds weaknesses)
+- *Blue Team* – Defensive security (protects and responds to threats)
+
+---
+
+## 3. Security Testing
+- *Vulnerability Scanning* – Automated detection of known issues
+- *Penetration Testing* – Simulated real attacks to test defenses
+
+### Key Roles:
+- Vulnerability Assessor
+- Penetration Tester
+- Red Team Operator
+- Security Researcher
+
+---
+
+## 4. SOC (Security Operations Center)
+Central unit that monitors and responds to cyber threats.
+
+### Structure:
+- *Tier 1* – Alerts and filtering
+- *Tier 2* – Incident investigation
+- *Tier 3* – Specialists (malware, forensics, threat hunting)
+- *SOC Manager* – Oversees operations
+
+---
+
+## 5. Career Outlook
+- High demand (33% growth expected)
+- Strong salaries and job stability
+- Growing global cybersecurity investment
+
+---
+
+## 6. Penetration Testing Life Cycle
+- *Recon* – Passive information gathering
+- *Scanning / Enumeration* – Active probing (ports, vulnerabilities)
+- *Gaining Access* – Exploiting weaknesses
+- *Maintaining Access* – Persistence (backdoors, C2)
+- *Covering Tracks* – Removing logs and traces
+- *Reporting* – Documenting findings and fixes
+
+---
+
+## 7. Path to Success
+- Master fundamentals before specialization
+- Cybersecurity requires self-learning and discipline
+- Choose a path: Red Team or Blue Team
+- Skipping basics slows long-term progress
+
+---
+
+## 8. Network Fundamentals & Key Devices
+
+### Basic Concepts:
+- *IP Address* – Unique network identifier (e.g. 192.168.1.1)
+- *MAC Address* – Physical hardware address
+
+### Devices:
+- *Hub* – Broadcasts data to all devices (inefficient)
+- *Switch* – Sends data to correct device using MAC address
+- *Router* – Connects different networks using IP routing
+
+---
+
+## 9. OSI Model
+
+7-layer model describing how data travels in a network:
+
+- *7. Application* – User services (HTTP, FTP, DNS)
+- *6. Presentation* – Encryption & formatting (SSL, JPEG)
+- *5. Session* – Manages connections
+- *4. Transport* – TCP (reliable), UDP (fast)
+- *3. Network* – Routing (IP, packets)
+- *2. Data Link* – MAC addresses, frames, switches
+- *1. Physical* – Cables, bits, hardware transmission
+
+---
+
+## 10. Network Topologies
+
+- *Star* – Central switch; failure of center affects all
+- *Bus* – Single backbone cable; break affects whole network
+- *Ring* – Circular data flow; one break disrupts network
+- *Mesh* – Fully connected; highly reliable but expensive
